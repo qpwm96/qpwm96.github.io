@@ -1,60 +1,87 @@
-@media screen and (min-device-width): 481px{
-	#guarantee{
-		margin-right:250px;
-	}
-}
-@mediascreen and (max-device-width): 480px{
-	#guarantee{
-		margin-right: 30px;
-	}
+body {
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
 }
 
-@media print{
-	body{
-	font-family: Times, "Times New Roman",serif;
-}
+h1, h2 {
+  color: #007e7e;
 }
 
-p.specials{
-	color:red;
+h1 {
+  font-size: 150%;
 }
 
-body{
-	font-size: normal;
-	fot-family:Verdana,Helvetice,Arial,sans-serif;
-	line-height: 1.6em;
+h2 {
+  font-size: 130%;
 }
 
-#guarantee{
-	border-color: white;
-	border-weight: 1px;
-	border-style: dashed;
-	background-color: #a7cece;
-	padding:	25px;
-	padding-left:80px;
-	margin: 30px;
-	margin-right: 250px;
-	background-image: url(images/background.gif);
-	background-position: top-left ;
-	background-repeat: no-repeat;
+#guarantee {
+  line-height: 1.9em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #444444;
+  border: 1px dashed white;
+  background-color: #a7cece;
+  padding: 25px;
+  padding-left: 80px;
+  margin: 30px;
+  margin-right: 250px;
+  background-image: url("images/background.gif");
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
-h1,h2{
-color:#007e7e
+#elixirs {
+  border: thin solid #007e7e;
+  width: 200px;
+  padding: 0px 20px 20px 20px;
+  margin-left: 20px;
+  text-align: center;
+  background-image: url("images/cocktail.gif");
+  background-repeat: repeat-x;
+  line-height: 1;
+  float: right;
 }
 
-h1{
-font-size:150%
+#elixirs h2 {
+  color: black;
 }
 
-h2{
-font-size:130%
+#elixirs h3 {
+  color: #d12c47;
 }
 
-p{
-	font-family:Georgia,Times New Roman,Times,serif;
-	color:#444;
-	font-style:italic
-	line-hight:1.9em
-	
+#footer {
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.cd {
+  font-style: italic;
+}
+
+.artist {
+  font-weight: bold;
+}
+
+a:link {
+  color: #007e7e;
+}
+
+a:visited {
+  color: #333333;
+}
+
+#elixirs a:link {
+  color: #007e7e;
+}
+
+#elixirs a:visited {
+  color: #333333;
+}
+
+#elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
 }
